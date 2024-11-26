@@ -78,7 +78,7 @@ Make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/URL-Shortener-MERN.git
+git clone https://github.com/MO-ARBAZ/url-shortner.git
 cd URL-Shortener-MERN
 ```
 
