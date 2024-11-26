@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #74b9ff, #81ecec);
+  font-family: "Arial", sans-serif;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-size: 28px;
+  color: #2d3436;
+}
+
+p {
+  margin: 0 0 20px;
+  color: #636e72;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #dfe6e9;
+  border-radius: 8px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #0984e3;
+}
+
+button {
+  background: #0984e3;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #74b9ff;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  background: #dff9fb;
+  border: 1px solid #00cec9;
+  border-radius: 8px;
+}
+
+a {
+  color: #0984e3;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
